@@ -25,11 +25,11 @@ public class PersegiPanjang extends BangunDatar {
         return super.keliling;
     }
 
-    public static double getPanjang() {
+    public double getPanjang() {
         return panjang;
     }
 
-    public static double getLebar() {
+    public double getLebar() {
         return lebar;
     }
 

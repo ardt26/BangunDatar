@@ -14,18 +14,19 @@ public class LimasPersegiPanjang extends PersegiPanjang {
     }
 
     public void hitungSisiMiringLebar() {
-        sisiMiringLebar = sqrt(pow((getLebar() / 2), 2) + pow(tinggi, 2));
+        sisiMiringLebar = sqrt(pow((getPanjang() / 2), 2) + pow(tinggi, 2));
     }
 
     public void hitungSisiMiringPanjang() {
-        sisiMiringPanjang = sqrt(pow((getPanjang() / 2), 2) + pow(tinggi, 2));
+        sisiMiringPanjang = sqrt(pow((getLebar() / 2), 2) + pow(tinggi, 2));
     }
 
     @Override
     public double hitungLuas() {
         super.hitungLuas();
-        hitungSisiMiringLebar();
+        System.out.println(super.luas);
         hitungSisiMiringPanjang();
+        hitungSisiMiringLebar();
         super.luas = super.luas + ((getLebar() * sisiMiringLebar) + (getPanjang() * sisiMiringPanjang));
         return super.luas;
     }

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09a475b1-b4d3-45a3-af1e-d7624c6e7e4b" name="Default Changelist" comment="">
+    <list default="true" id="09a475b1-b4d3-45a3-af1e-d7624c6e7e4b" name="Default Changelist" comment="Fixed Bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktikum-3/BangunDatarRuang/PersegiPanjang/LimasPersegiPanjang.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktikum-3/BangunDatarRuang/PersegiPanjang/LimasPersegiPanjang.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BangunDatarRuang/PersegiPanjang/LimasPersegiPanjang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BangunDatarRuang/PersegiPanjang/LimasPersegiPanjang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BangunDatarRuang/PersegiPanjang/PersegiPanjang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BangunDatarRuang/PersegiPanjang/PersegiPanjang.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,42 +69,64 @@
       <option name="project" value="LOCAL" />
       <updated>1582255240577</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixed Bug">
+      <created>1582255384418</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582255384418</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Mempersingkat import" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mempersingkat import" />
+    <MESSAGE value="Fixed Bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Bug" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="494" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1582195772158">
+    <state x="494" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1582341290654">
       <screen x="0" y="0" width="1376" height="744" />
     </state>
-    <state x="494" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1376.744@0.0.1376.744" timestamp="1582195772158" />
-    <state x="361" y="0" key="CommitChangelistDialog2" timestamp="1582255383583">
+    <state x="494" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1376.744@0.0.1376.744" timestamp="1582341290654" />
+    <state x="68" y="0" key="CommitChangelistDialog2" timestamp="1582344977151">
       <screen x="0" y="0" width="1376" height="744" />
     </state>
-    <state x="361" y="0" key="CommitChangelistDialog2/0.0.1376.744@0.0.1376.744" timestamp="1582255383583" />
-    <state x="131" y="62" key="DiffContextDialog" timestamp="1582250698467">
+    <state x="68" y="0" key="CommitChangelistDialog2/0.0.1376.744@0.0.1376.744" timestamp="1582344977151" />
+    <state x="131" y="62" key="DiffContextDialog" timestamp="1582344957980">
       <screen x="0" y="0" width="1376" height="744" />
     </state>
-    <state x="131" y="62" key="DiffContextDialog/0.0.1376.744@0.0.1376.744" timestamp="1582250698467" />
-    <state width="1333" height="184" key="GridCell.Tab.0.bottom" timestamp="1582250761448">
+    <state x="131" y="62" key="DiffContextDialog/0.0.1376.744@0.0.1376.744" timestamp="1582344957980" />
+    <state width="1333" height="315" key="GridCell.Tab.0.bottom" timestamp="1582344883846">
       <screen x="0" y="0" width="1376" height="744" />
     </state>
-    <state width="1333" height="184" key="GridCell.Tab.0.bottom/0.0.1376.744@0.0.1376.744" timestamp="1582250761448" />
-    <state width="1333" height="184" key="GridCell.Tab.0.center" timestamp="1582250761447">
+    <state width="1333" height="315" key="GridCell.Tab.0.bottom/0.0.1376.744@0.0.1376.744" timestamp="1582344883846" />
+    <state width="1333" height="315" key="GridCell.Tab.0.center" timestamp="1582344883845">
       <screen x="0" y="0" width="1376" height="744" />
     </state>
-    <state width="1333" height="184" key="GridCell.Tab.0.center/0.0.1376.744@0.0.1376.744" timestamp="1582250761447" />
-    <state width="1333" height="184" key="GridCell.Tab.0.left" timestamp="1582250761447">
+    <state width="1333" height="315" key="GridCell.Tab.0.center/0.0.1376.744@0.0.1376.744" timestamp="1582344883845" />
+    <state width="1333" height="315" key="GridCell.Tab.0.left" timestamp="1582344883845">
       <screen x="0" y="0" width="1376" height="744" />
     </state>
-    <state width="1333" height="184" key="GridCell.Tab.0.left/0.0.1376.744@0.0.1376.744" timestamp="1582250761447" />
-    <state width="1333" height="184" key="GridCell.Tab.0.right" timestamp="1582250761448">
+    <state width="1333" height="315" key="GridCell.Tab.0.left/0.0.1376.744@0.0.1376.744" timestamp="1582344883845" />
+    <state width="1333" height="315" key="GridCell.Tab.0.right" timestamp="1582344883846">
       <screen x="0" y="0" width="1376" height="744" />
     </state>
-    <state width="1333" height="184" key="GridCell.Tab.0.right/0.0.1376.744@0.0.1376.744" timestamp="1582250761448" />
+    <state width="1333" height="315" key="GridCell.Tab.0.right/0.0.1376.744@0.0.1376.744" timestamp="1582344883846" />
+    <state x="397" y="198" key="com.intellij.ide.util.TipDialog" timestamp="1582338954608">
+      <screen x="0" y="0" width="1376" height="744" />
+    </state>
+    <state x="397" y="198" key="com.intellij.ide.util.TipDialog/0.0.1376.744@0.0.1376.744" timestamp="1582338954608" />
     <state x="511" y="290" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582255310488">
       <screen x="0" y="0" width="1376" height="744" />
     </state>
