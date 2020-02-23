@@ -24,7 +24,6 @@ public class LimasPersegiPanjang extends PersegiPanjang {
     @Override
     public double hitungLuas() {
         super.hitungLuas();
-        System.out.println(super.luas);
         hitungSisiMiringPanjang();
         hitungSisiMiringLebar();
         super.luas = super.luas + ((getLebar() * sisiMiringLebar) + (getPanjang() * sisiMiringPanjang));

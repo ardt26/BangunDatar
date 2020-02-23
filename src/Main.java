@@ -37,7 +37,7 @@ public class Main {
                 balok.setLebar(lebar);
                 balok.setTinggi(tinggi);
                 balok.display();
-                LimasPersegiPanjang limasPersegiPanjang = new LimasPersegiPanjang(panjang, lebar, tinggi);
+                LimasPersegiPanjang limasPersegiPanjang = new LimasPersegiPanjang();
                 limasPersegiPanjang.display();
                 Tabung tabung = new Tabung();
                 tabung.setDiameter(lebar);
